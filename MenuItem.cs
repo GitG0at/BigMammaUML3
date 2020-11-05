@@ -64,7 +64,9 @@ namespace BigMammaUML3
             return
                 $"Number {_number} \tName {_name} \n\tDescription {_description} Price {_price} MenuType {_menuType} IsVegan {_isVegan} IsOrganic {_isOrganic}";
         }
-
+        public MenuItem()
+        {
+        }
         public MenuItem(int number, string name, string description, double price, MenuType menuType, bool isVegan, bool isOrganic)
         {
             _number = number;

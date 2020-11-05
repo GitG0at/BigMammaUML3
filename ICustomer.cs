@@ -10,6 +10,8 @@ namespace BigMammaUML3
         string Name { get; set; }
         string Adress { get; set; }
         string PhoneNo { get; set; }
+
+        string DogName { get; set; }
     }
 
 }
